@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Lab1"
+             x:Class="Lab1.MainPage">
+
+    <Grid BackgroundColor="Black" ColumnSpacing="1" RowSpacing="1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Label Text="129,39" TextColor="White" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="End" HorizontalOptions="EndAndExpand" />
+
+        <Frame Grid.Column="0" Grid.Row="1" Style="{StaticResource ButtomFrame}">
+            <Label Text="C" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+        <Frame Grid.Column="1" Grid.Row="1" Style="{StaticResource ButtomFrame}">
+            <Label Text="+/-" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="2" Grid.Row="1" Style="{StaticResource ButtomFrame}">
+            <Label Text="%" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="3" Grid.Row="1" Style="{StaticResource ButtomFrame}">
+            <Label Text="/" Style="{StaticResource OrangeFrameLabel}"/>
+        </Frame>
+
+
+        <Frame Grid.Column="0" Grid.Row="2" Style="{StaticResource ButtomFrame}">
+            <Label Text="7" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="1" Grid.Row="2" Style="{StaticResource ButtomFrame}">
+            <Label Text="8" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="2" Grid.Row="2" Style="{StaticResource ButtomFrame}">
+            <Label Text="9" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="3" Grid.Row="2" Style="{StaticResource ButtomFrame}">
+            <Label Text="X" Style="{StaticResource OrangeFrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="0" Grid.Row="3" Style="{StaticResource ButtomFrame}">
+            <Label Text="4" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="1" Grid.Row="3" Style="{StaticResource ButtomFrame}">
+            <Label Text="5" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="2" Grid.Row="3" Style="{StaticResource ButtomFrame}">
+            <Label Text="6" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="3" Grid.Row="3" Style="{StaticResource ButtomFrame}">
+            <Label Text="-" Style="{StaticResource OrangeFrameLabel}"/>
+        </Frame>
+
+
+        <Frame Grid.Column="0" Grid.Row="4" Style="{StaticResource ButtomFrame}">
+            <Label Text="1" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="1" Grid.Row="4" Style="{StaticResource ButtomFrame}">
+            <Label Text="2" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="2" Grid.Row="4" Style="{StaticResource ButtomFrame}">
+            <Label Text="3" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="3" Grid.Row="4" Style="{StaticResource ButtomFrame}">
+            <Label Text="+" Style="{StaticResource OrangeFrameLabel}"/>
+        </Frame>
+
+
+
+        <Frame Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Style="{StaticResource ButtomFrame}">
+            <Label Text="0" Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="2" Grid.Row="5" Style="{StaticResource ButtomFrame}">
+            <Label Text="," Style="{StaticResource FrameLabel}"/>
+        </Frame>
+
+        <Frame Grid.Column="3" Grid.Row="5" Style="{StaticResource ButtomFrame}">
+            <Label Text="=" Style="{StaticResource OrangeFrameLabel}"/>
+        </Frame>
+        
+    </Grid>
+ 
+</ContentPage>
